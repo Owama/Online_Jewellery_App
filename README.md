@@ -1,10 +1,12 @@
 ONLINE JEWELLERY APP
 
 Background
+
 ONLINE JEWELLERY APP is a software management that is build for Jewellery sales.
 Jewellery consists of small decorative items worn for personal adornment, such as brooches, rings, necklaces, earrings, and bracelets. 
 
 Problem statement
+
 By having to travel far distances for meticulous items at different institutions, online jewellery app allow you to save time and 
 cost by bring mobile jewellery to you via the internet
 

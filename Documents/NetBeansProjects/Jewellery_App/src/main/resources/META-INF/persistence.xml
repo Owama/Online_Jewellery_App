@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="myJewelleryPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.mycompany.jewellery_app.Domain.Customer</class>
+    <class>com.mycompany.jewellery_app.Domain.CreditCard</class>
+    <class>com.mycompany.jewellery_app.Domain.Orders</class>
+    <class>com.mycompany.jewellery_app.Domain.Jewellery</class>
+    <class>com.mycompany.jewellery_app.Domain.Supplier</class>
+    <class>com.mycompany.jewellery_app.Domain.OrderItem</class>
+    <class>com.mycompany.jewellery_app.Domain.CustomerInvoice</class>
+    <class>com.mycompany.jewellery_app.Domain.JewelleryCategory</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/JewelleryDB"/>
+      <property name="javax.persistence.jdbc.user" value="JewelleryDB"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+      <property name="javax.persistence.jdbc.password" value="JewelleryDB"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create-tables"/>
+    </properties>
+  </persistence-unit>
+</persistence>
